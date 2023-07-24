@@ -35,7 +35,7 @@ const ResumeModal = ({ onClose }) => {
         <div className="modal-content">
           <iframe
             title="Resume"
-            src="/resume.html" // Points to the resume.html in the public folder
+            src="/Resume.html"
             width="100%"
             height="100%"
             frameBorder="0"
