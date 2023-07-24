@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+
         .partition {
             display: grid;
             grid-template-columns: 1.75fr 3fr;
@@ -144,6 +145,12 @@
             color: #505153;
             margin-top: 0px;
         }
+      @media only screen and (max-width: 650px) {
+            .partition {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+          }
     </style>
     <title>Document</title>
 </head>
