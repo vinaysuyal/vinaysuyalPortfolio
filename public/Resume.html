@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .partition {
+            display: grid;
+            grid-template-columns: 1.75fr 3fr;
+        }
+
+        html {
+            max-width: fit-content;
+            margin: auto;
+        }
+
+        body {
+            margin: 0px;
+            padding-bottom: 50px;
+        }
+
+        main {
+            padding: 20px;
+            padding-top: 0px;
+        }
+
+        ul {
+            margin-top: 0px;
+        }
+
+        .leftContainer {
+            height: max-content
+        }
+
+        .leftContainer#skills ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0px;
+            margin: 0px;
+
+        }
+
+        .leftContainer ul {
+            text-justify: inter-character;
+            padding-left: 10px;
+            margin: 8px;
+        }
+
+        .RightContainer ul {
+            padding-left: 30px;
+        }
+
+        .leftContainer#skills li {
+            margin: 4px 4px 4px 4px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 5px;
+            background-color: #eae7e7;
+        }
+
+        .RightContainer li {
+            text-justify: distribute-all-lines;
+        }
+
+        .left {
+            border-width: 0px 10px 0px 0px;
+            border-color: #eae7e7;
+            border-style: solid;
+            margin-right: 20px;
+            border-radius: 15px;
+        }
+
+        #Education h2 {
+            margin-top: 0px;
+        }
+
+        #Experience h2 {
+            margin-top: 0px;
+        }
+
+        p {
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        a.impLinks {
+            color: white;
+            text-decoration: none;
+        }
+
+        a.impLinks:visited {
+            color: white;
+        }
+
+        a.projectLinks {
+            color: maroon;
+            text-decoration: none;
+
+        }
+
+        a.projectLinks:visited {
+            color: maroon;
+            text-decoration: none;
+        }
+
+        header h1 {
+            margin: 3px 0px 3px 0px;
+        }
+
+        header {
+            background-color: #b12025;
+            color: white;
+            padding: 5px;
+            padding-bottom: 20px;
+        }
+
+        hr {
+            margin-top: 0px;
+        }
+
+        header>div {
+            margin-left: auto;
+            text-align: right;
+            width: fit-content;
+        }
+
+        .designationAndCompany,
+        .projectName {
+            color: #b12025;
+            ;
+            margin-top: 5px;
+            margin-bottom: 0px;
+        }
+
+        .durationInCompany,
+        .projectSkills {
+            color: #505153;
+            margin-top: 0px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>
+                Vinay Suyal
+            </h1>
+            <div>
+                <h5
+                    style="border-right: 2px white solid; width: fit-content; padding-right: 5px; display: inline; margin-right: 5px;">
+                    +91 9917788579
+                </h5>
+                <a class="impLinks" href="mailto:vinaysuyal2012@gmail.com" target="_blank">
+                    <h5 style="width: fit-content; padding-right: 5px; display: inline;">
+                        vinaysuyal2012@gmail.com
+                    </h5>
+                </a>
+                <br>
+                <a class="impLinks" href="https://github.com/vinaysuyal" target="_blank">
+                    <h5
+                        style="border-right: 2px white solid; width: fit-content; padding-right: 5px; display: inline; margin-right: 5px;">
+                        github.com/vinaysuyal
+                    </h5>
+                </a>
+                <a class="impLinks" href="https://www.linkedin.com/in/vinay-suyal/" target="_blank">
+                    <h5 style="width: fit-content; padding-right: 5px; display: inline;">
+                        linkedin.com/in/vinay-suyal/
+                    </h5>
+                </a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <hr />
+    <main>
+        <div class="Profile">
+            <h2>Summary</h2>
+            <p>Highly skilled Software Developer with a strong background in problem solving and programming. Proven
+                track record of successfully designing and implementing software solutions. Adept at communicating
+                effectively with team members and stakeholders to ensure project success. Seeking a challenging software
+                development role where one can utilize their skills and expertise to contribute to the success of the
+                organization.</p>
+        </div>
+        <br>
+        <div class="partition">
+            <div class="left">
+                <div class="leftContainer" id="Education">
+                    <h2>Education</h2>
+                    <div class="experienceContainer">
+                        <p class="designationAndCompany">DIT University, Dehradun</p>
+                        <p class="durationInCompany">2017 &ndash; 2021</p>
+                        <p>B.Tech</p>
+                    </div>
+                    <div class="experienceContainer">
+                        <p class="designationAndCompany">Carman Residential and Day School, Dehradun</p>
+                        <p class="durationInCompany">2014 &ndash; 2016</p>
+                        <p>Intermediate</p>
+                    </div>
+                    <div class="experienceContainer">
+                        <p class="designationAndCompany">Carmel School, Chamba</p>
+                        <p class="durationInCompany">2004 &ndash; 2014</p>
+                        <p>High School</p>
+                    </div>
+                </div>
+                <div class="leftContainer" id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML & CSS</li>
+                        <li>React JS</li>
+                        <li>JavaScript</li>
+                        <li>Redux</li>
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>Hibernate</li>
+                        <li>Spring Security</li>
+                        <li>Redis</li>
+                        <li>Kafka</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="leftContainer" id="achievements">
+                    <h2>Achievements</h2>
+                    <ul>
+                        <li>Placed Runner Up in a hackathon conducted by the Computer Society of India, showcasing
+                            technical skills and innovation in problem-solving.</li>
+                        <li>Secured First Position in a Debate Competition organized by the Debating Society at DIT
+                            University through strong research and public speaking skills.</li>
+                        <li>Volunteered in the collection of funds for the Cancer/Aids Society, demonstrating commitment
+                            to community service and social causes.</li>
+                        <li>Awarded Mr. Positive by the Training and Development Department at DIT University for
+                            outstanding attitude in various activities conducted by the department.</li>
+
+                    </ul>
+                </div>
+                <div class="leftContainer" id="hobbies">
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Reading Books</li>
+                        <li>Listening to Music</li>
+                        <li>Cooking</li>
+                    </ul>
+                </div>
+
+                <div class="leftContainer" id="languages">
+                    <h2>languages</h2>
+                    <ul>
+                        <li><span>English</span></li>
+                        <li><span>Hindi</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="right">
+
+                <div class="RightContainer" id="Experience">
+                    <h2>Experience</h2>
+                    <div class="experienceContainer">
+                        <p class="designationAndCompany">Software Developer, Hitachi Vantara, Hyderabad</p>
+                        <p class="durationInCompany">June 2021 &mdash; Present</p>
+                        <ul>
+                            <li>Expertly coded and implemented software changes based on precise design specifications,
+                                resulting in seamless functionality and user experience.</li>
+                            <li>Developed multiple POCs for various features demonstrating the feasibility and potential
+                                impact of each feature on the company's product roadmap.</li>
+                            <li>Demonstrated strong problem-solving skills by accurately identifying, diagnosing, and
+                                fixing website issues including bugs, typographical errors and formatting issues.</li>
+                            <li>Collaborated with clients to understand business requirements, ensuring the development
+                                of solutions that meet their needs.</li>
+                            <li>Assisted with the onboarding and training of new team members, effectively communicating
+                                project processes and protocols to facilitate their integration into the team.</li>
+                        </ul>
+                    </div>
+                    <div class="experienceContainer">
+                        <p class="designationAndCompany">Intern, Hitachi Vantara, Hyderabad</p>
+                        <p class="durationInCompany">Feb 2021 &mdash; May 2021</p>
+                        <ul>
+                            <li>Successfully implemented backend REST API's and honed my expertise in microservices
+                                patterns and practices.</li>
+                            <li>Applied my knowledge of Docker to design and develop an Interns Management Tool that
+                                streamlined the company's intern management process by transitioning from excel sheets
+                                to a web application.</li>
+                        </ul>
+                    </div>
+                    <div class="experienceContainer">
+                        <p class="designationAndCompany">Technical Intern, Tech IndusOne Services, Mohali</p>
+                        <p class="durationInCompany">May 2020 &mdash; June 2020</p>
+                        <ul>
+                            <li>Architected and developed a JIRA-like Project Management Solution using Django as part
+                                of the team that built the company's Employee Management system. The solution
+                                streamlined the assignment, movement, and submission of projects within the
+                                organization.</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="RightContainer" id="Projects">
+                    <h2>Projects</h2>
+                    <div class="projectContainer">
+                        <p class="projectName">OneDash</p>
+                        <p class="projectSkills">Skills Used: React JS, Material UI, Redux, HTML, CSS, SASS, JavaScript
+                        </p>
+                        <ul>
+                            <li>Collaborated with a team to develop and deploy a project management application for a client with over 200 subsidiaries, resulting in about 40% increase in productivity.</li>
+                            <li>Streamlined project oversight and collaboration, significantly reducing time spent on
+                                administrative tasks and increasing efficiency across the organization.</li>
+                            <li>Improved transparency and accountability through the implementation of a comprehensive
+                                project record-keeping system, leading to more effective decision-making.</li>
+                            <li>Contributed to a noticeable increase in overall productivity and successful project
+                                outcomes for the client.</li>
+                            <li>Continuously provided support and maintenance of the application to ensure optimal
+                                performance and satisfaction.</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="projectContainer">
+                        <p class="projectName">KGIT UFS+</p>
+                        <p class="projectSkills">Skills Used: React JS, Kendo UI, Redux, HTML, CSS, JavaScript </p>
+                        <ul>
+                            <li>Collaborated in the development of a complex freight forwarding application for Kintetsu
+                                World Express, resulting in a about 90% increase in performance compared to the previous
+                                desktop-based application.</li>
+                            <li>Utilized knowledge of React JS and redux development to implement crucial features in
+                                the application.</li>
+                        </ul>
+
+                    </div>
+                    <div class="projectContainer">
+                        <p class="projectName">Food Order Application</p>
+                        <p class="projectSkills">Skills Used: React JS, JavaScript, Firebase, HTML, CSS. </p>
+                        <ul>
+                            <li>Designed and developed a Food Ordering Application featuring essential e-commerce
+                                functionality</li>
+                            <li>The application has a visually appealing user interface and responsive design to support
+                                use on various devices, including smartphones, tablets, and desktop computers. </li>
+                            <li>View the project at:<a class="projectLinks"
+                                    href="https://food-order-app-sand-six.vercel.app/" target="_blank">
+                                    https://food-order-app-sand-six.vercel.app/
+                                </a></li>
+                        </ul>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
