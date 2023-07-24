@@ -90,7 +90,7 @@ const App = () => {
           ))}
         </div>
         <button className="close-button" onClick={openModal}>
-          View My Resume
+          My Resume
         </button>
         {isModalOpen && <ResumeModal onClose={closeModal} />}
       </div>

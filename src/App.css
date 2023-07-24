@@ -100,7 +100,7 @@ body {
 /* ... (previous styles) */
 
 .close-button {
-  width: 225px;
+  min-width: 225px;
   position: fixed;
   bottom: 25px;
   right: 50%;
