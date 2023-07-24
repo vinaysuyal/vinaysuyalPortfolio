@@ -100,7 +100,7 @@ body {
 
 .close-button {
   width: fit-content;
-  position: absolute;
+  position: fixed;
   bottom: 25px;
   right: 50%;
   font-size: 24px;
