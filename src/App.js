@@ -94,14 +94,14 @@ const App = () => {
             to the success of the organization.
           </p>
         </header>
-        <h1>My Projects</h1>
+        <h1>Projects</h1>
         <div className="projects">
           {projects.map((project) => (
             <div key={project.id} className="project">
               <div>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
-                <div className="technologies-list">
+                <div className="skills-list">
                   {project?.technologiesUsed?.map((technology) => (
                     <span key={technology}>{technology}</span>
                   ))}

@@ -121,13 +121,13 @@ body {
   color: #b12025;
 }
 
-.technologies-list {
+.skills-list {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
 }
 
-.technologies-list span {
+.skills-list span {
   background-color: #f0f0f0;
   border-radius: 4px;
   padding: 5px 10px;
