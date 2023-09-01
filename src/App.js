@@ -104,15 +104,14 @@ const App = () => {
       <div className="container">
         <header className="header">
           <h1>Vinay Suyal</h1>
-          <p>Software Developer, Hitachi Vantara</p>
+          <p>Software Developer</p>
           <p>
-            Highly skilled Software Developer with a strong background in
-            problem solving and programming. Proven track record of successfully
-            designing and implementing software solutions. Adept at
-            communicating effectively with team members and stakeholders to
-            ensure project success. Seeking a challenging software development
-            role where one can utilize their skills and expertise to contribute
-            to the success of the organization.
+            Experienced software developer with a strong problem-solving mindset
+            and a track record of delivering impactful solutions. Proficient in
+            creating responsive and user-friendly applications while also having
+            the ability to tackle complex backend challenges. Passionate about
+            crafting elegant and efficient software solutions to address a wide
+            range of problems.
           </p>
         </header>
         <h1>Projects</h1>
