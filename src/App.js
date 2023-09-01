@@ -4,6 +4,14 @@ import ReactDOM from "react-dom";
 
 const projects = [
   {
+    id: 6,
+    title: "Quiz Application",
+    description:
+      "Developed a responsive quiz application that seamlessly retrieves questions, allows users to submit their answers, and includes an automated timer. Once the timer expires, the test is automatically submitted. After completion, users can conveniently view their results.",
+    link: "https://quizapp-woad.vercel.app/",
+    technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
+  },
+  {
     id: 1,
     title: "Food Order Application",
     description:
@@ -17,7 +25,12 @@ const projects = [
     description:
       " Developed an interactive tool to demonstrate the efficiency of backtracking algorithms in solving Sudoku puzzles. Users can observe the step-by-step process and adjust the speed for detailed examination or quick overview. A project showcasing algorithm implementation and problem-solving skills.",
     link: "https://sudoku-solver-inky.vercel.app/",
-    technologiesUsed: ["React js", "Javascript"],
+    technologiesUsed: [
+      "React js",
+      "Javascript",
+      "Data Structures",
+      "Algorithms",
+    ],
   },
   {
     id: 3,
@@ -40,6 +53,14 @@ const projects = [
       " A user-friendly expense tracking application allowing easy entry of expenses with dates, and providing visual representations of spending patterns within specified date ranges. Efficiently manage finances and gain valuable insights for better budgeting.",
     link: "https://expense-tracker-one-nu.vercel.app/",
     technologiesUsed: ["React js", "Javascript", "Material UI", "HTML"],
+  },
+  {
+    id: 7,
+    title: "Auto Complete Search Box",
+    description:
+      "I've crafted a versatile autocomplete box designed for seamless integration into various applications, including search engines and online shopping websites. In search engines, it intuitively predicts and displays relevant search queries as users type, optimizing search efficiency. On e-commerce platforms, it enhances the shopping experience by suggesting products, categories, and filters, streamlining the search process and boosting sales.",
+    link: "https://quizapp-woad.vercel.app/",
+    technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
   },
 
   // Add more projects as needed
