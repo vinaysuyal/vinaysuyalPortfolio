@@ -59,7 +59,7 @@ const projects = [
     title: "Auto Complete Search Box",
     description:
       "I've crafted a versatile autocomplete box designed for seamless integration into various applications, including search engines and online shopping websites. In search engines, it intuitively predicts and displays relevant search queries as users type, optimizing search efficiency. On e-commerce platforms, it enhances the shopping experience by suggesting products, categories, and filters, streamlining the search process and boosting sales.",
-    link: "https://quizapp-woad.vercel.app/",
+    link: "https://auto-complete-eight.vercel.app/",
     technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
   },
 
