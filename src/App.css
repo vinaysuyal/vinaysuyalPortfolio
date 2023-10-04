@@ -234,4 +234,9 @@ body {
     display: inline;
     border-bottom: 2px white solid;
   }
+  .nav__list_item--header a:hover {
+    opacity: 0.5;
+    color: black;
+    box-shadow: 3px 3px;
+  }
 }
