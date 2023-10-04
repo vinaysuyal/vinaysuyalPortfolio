@@ -65,6 +65,7 @@ body {
   background-color: white;
   opacity: 0.9;
   color: black;
+  box-shadow: 3px 3px;
 }
 .hobbies__icon-container img {
   height: 100px;
@@ -219,12 +220,14 @@ body {
   }
   .header__flex--right {
     max-width: 100%;
+    bottom: 25vh;
+    left: 0;
   }
   body {
     padding: 4px;
   }
   .nav__list_item--header {
-    display: inline;
+    display: inline-block;
   }
   .nav__list_item--header a {
     display: inline;
