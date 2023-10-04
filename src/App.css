@@ -214,4 +214,19 @@ body {
     top: 5%;
     max-width: 50%;
   }
+  .header__flex--left {
+    max-width: 100%;
+  }
+  .header__flex--right {
+    max-width: 100%;
+  }
+  body {
+    padding: 4px;
+  }
+  .nav__list_item--header {
+    display: inline;
+  }
+  .nav__list_item--header a {
+    display: inline;
+  }
 }
