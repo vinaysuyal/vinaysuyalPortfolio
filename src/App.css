@@ -228,8 +228,10 @@ body {
   }
   .nav__list_item--header {
     display: inline-block;
+    margin-bottom: 25px;
   }
   .nav__list_item--header a {
     display: inline;
+    border-bottom: 2px white solid;
   }
 }
