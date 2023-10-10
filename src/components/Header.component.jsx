@@ -17,10 +17,10 @@ function Header() {
         <div className="header__flex--right nav">
           <ul className="nav__list">
             <li className="nav__list_item--header">
-              <a href="#experience">Experience</a>
+              <a href="#skills">Skills</a>
             </li>
             <li className="nav__list_item--header">
-              <a href="#skills">Skills</a>
+              <a href="#experience">Experience</a>
             </li>
             <li className="nav__list_item--header">
               <a href="#projects">My Projects</a>
