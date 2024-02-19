@@ -6,12 +6,7 @@ function Header() {
           <h1 className="name">Vinay Suyal</h1>
           <h2 className="title">Software Developer</h2>
           <span className="subtitle">
-            Experienced software developer with a strong problem-solving mindset
-            and a track record of delivering impactful solutions. Proficient in
-            creating responsive and user-friendly applications while also having
-            the ability to tackle complex backend challenges. Passionate about
-            crafting elegant and efficient software solutions to address a wide
-            range of problems.
+            A problem solver with a receptive mind, demonstrating learning agility and an ease of collaboration. Known for approachability and being conducive to teamwork, excelling in finding innovative solutions to challenges. Brings forth a strong track record of delivering impactful solutions, proficiency in creating responsive and user-friendly applications, and adept at tackling complex challenges. Passionate about crafting elegant and efficient software solutions to address a wide range of problems with innovation and finesse.
           </span>
         </div>
         <div className="header__flex--right nav">
