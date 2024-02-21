@@ -75,6 +75,27 @@ function BodyComponent() {
       ],
     },
     {
+      id: 10,
+      title: "Diff Checker",
+      description:
+        "DiffChecker is a React application designed to compare differences between two blocks of text. Users can input an original text and a modified version, then choose between character-level or line-level view to analyze the variations. The application highlights added, removed, and common segments between the texts, providing a clear visualization of the changes made.",
+      link: "https://diff-checker-umber.vercel.app/",
+      technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
+    },
+     {
+      id: 2,
+      title: "Sudoku Solution Visualiser",
+      description:
+        " Developed an interactive tool to demonstrate the efficiency of backtracking algorithms in solving Sudoku puzzles. Users can observe the step-by-step process and adjust the speed for detailed examination or quick overview. A project showcasing algorithm implementation and problem-solving skills.",
+      link: "https://sudoku-solver-inky.vercel.app/",
+      technologiesUsed: [
+        "React js",
+        "Javascript",
+        "Data Structures",
+        "Algorithms",
+      ],
+    },
+    {
       id: 6,
       title: "Quiz Application",
       description:
@@ -89,19 +110,6 @@ function BodyComponent() {
         "Designed and developed a Food Ordering Application featuring essential e-commerce functionality. The application has a visually appealing user interface and responsive design to support use on various devices, including smartphones, tablets, and desktop computers.",
       link: "https://food-order-app-sand-six.vercel.app/",
       technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
-    },
-    {
-      id: 2,
-      title: "Sudoku Solution Visualiser",
-      description:
-        " Developed an interactive tool to demonstrate the efficiency of backtracking algorithms in solving Sudoku puzzles. Users can observe the step-by-step process and adjust the speed for detailed examination or quick overview. A project showcasing algorithm implementation and problem-solving skills.",
-      link: "https://sudoku-solver-inky.vercel.app/",
-      technologiesUsed: [
-        "React js",
-        "Javascript",
-        "Data Structures",
-        "Algorithms",
-      ],
     },
     {
       id: 3,
