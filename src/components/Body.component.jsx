@@ -125,22 +125,22 @@ function BodyComponent() {
         "PostgreSQL",
       ],
     },
-    {
-      id: 4,
-      title: "Expense Tracker",
-      description:
-        " A user-friendly expense tracking application allowing easy entry of expenses with dates, and providing visual representations of spending patterns within specified date ranges. Efficiently manage finances and gain valuable insights for better budgeting.",
-      link: "https://expense-tracker-one-nu.vercel.app/",
-      technologiesUsed: ["React js", "Javascript", "Material UI", "HTML"],
-    },
-    {
-      id: 7,
-      title: "Auto Complete Search Box",
-      description:
-        "I've crafted a versatile autocomplete box designed for seamless integration into various applications, including search engines and online shopping websites. In search engines, it intuitively predicts and displays relevant search queries as users type, optimizing search efficiency. On e-commerce platforms, it enhances the shopping experience by suggesting products, categories, and filters, streamlining the search process and boosting sales.",
-      link: "https://auto-complete-eight.vercel.app/",
-      technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
-    },
+    // {
+    //   id: 4,
+    //   title: "Expense Tracker",
+    //   description:
+    //     " A user-friendly expense tracking application allowing easy entry of expenses with dates, and providing visual representations of spending patterns within specified date ranges. Efficiently manage finances and gain valuable insights for better budgeting.",
+    //   link: "https://expense-tracker-one-nu.vercel.app/",
+    //   technologiesUsed: ["React js", "Javascript", "Material UI", "HTML"],
+    // },
+    // {
+    //   id: 7,
+    //   title: "Auto Complete Search Box",
+    //   description:
+    //     "I've crafted a versatile autocomplete box designed for seamless integration into various applications, including search engines and online shopping websites. In search engines, it intuitively predicts and displays relevant search queries as users type, optimizing search efficiency. On e-commerce platforms, it enhances the shopping experience by suggesting products, categories, and filters, streamlining the search process and boosting sales.",
+    //   link: "https://auto-complete-eight.vercel.app/",
+    //   technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
+    // },
 
     // Add more projects as needed
   ];
