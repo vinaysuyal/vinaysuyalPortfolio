@@ -88,7 +88,12 @@ function BodyComponent() {
       description:
         "DiffChecker is a React application designed to compare differences between two blocks of text. Users can input an original text and a modified version, then choose between character-level or line-level view to analyze the variations. The application highlights added, removed, and common segments between the texts, providing a clear visualization of the changes made.",
       link: "https://diff-checker-umber.vercel.app/",
-      technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
+      technologiesUsed: [
+        "React js",
+        "Javascript",
+        "Data Structures",
+        "Algorithms",
+      ],
     },
      {
       id: 2,
