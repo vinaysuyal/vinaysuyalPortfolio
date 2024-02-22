@@ -75,6 +75,14 @@ function BodyComponent() {
       ],
     },
     {
+      id: 1,
+      title: "Food Order Application",
+      description:
+        "Designed and developed a Food Ordering Application featuring essential e-commerce functionality. The application has a visually appealing user interface and responsive design to support use on various devices, including smartphones, tablets, and desktop computers.",
+      link: "https://food-order-app-sand-six.vercel.app/",
+      technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
+    },
+    {
       id: 10,
       title: "Diff Checker",
       description:
@@ -101,14 +109,6 @@ function BodyComponent() {
       description:
         "Developed a responsive quiz application that seamlessly retrieves questions, allows users to submit their answers, and includes an automated timer. Once the timer expires, the test is automatically submitted. After completion, users can conveniently view their results.",
       link: "https://quizapp-woad.vercel.app/",
-      technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
-    },
-    {
-      id: 1,
-      title: "Food Order Application",
-      description:
-        "Designed and developed a Food Ordering Application featuring essential e-commerce functionality. The application has a visually appealing user interface and responsive design to support use on various devices, including smartphones, tablets, and desktop computers.",
-      link: "https://food-order-app-sand-six.vercel.app/",
       technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
     },
     {
