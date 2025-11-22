@@ -4,11 +4,25 @@ import bookLogo from "../assets/book.png";
 function BodyComponent() {
   const experience = [
     {
+      position: "UI Engineer",
+      organization: "ICE Mortgage Technology",
+      location: "Pune",
+      start: "August 2024",
+      end: "Present",
+      description_list: [
+        "Architected and delivered a configuration management platform serving 500+ enterprise customers, enabling 80%+ of self-service needs and reducing support dependency.",
+        "Implemented data flow control and audit reporting system providing detailed data change tracking and query-based report generation.",
+        "Designed WCAG 2.1 AA-compliant application interfaces optimized across multiple resolutions and zoom levels achieving performance improvement and reducing page load time.",
+        "Identified and resolved critical and high-priority security/governance incidents, documented root causes, and implemented architectural improvements reducing incident reopening rate.",
+        "Spearheaded tier-2 production support operations, expertly diagnosing and resolving escalated incidents, reducing mean time-to-resolution for critical issues, and improving customer confidence through reliable incident handling.",
+      ],
+    },
+    {
       position: "Software Developer",
       organization: "Hitachi Vantara",
       location: "Hyderabad",
       start: "June 2021",
-      end: "Present",
+      end: "August 2024",
       description_list: [
         "Expertly coded and implemented software changes based on precise design specifications, resulting in seamless functionality and user experience.",
         "Developed multiple POCs for various features demonstrating the feasibility and potential impact of each feature on the company's product roadmap.",
@@ -42,6 +56,39 @@ function BodyComponent() {
 
   const projects = [
     {
+      id: 10,
+      title: "Split Panda",
+      description: `SplitPanda is a bill-splitting and expense-tracking app designed for groups, friends, and roommates. It allows users to create groups, add members via phone numbers, split expenses, and track balances effortlessly. The dashboard provides real-time insights into how much a user owes or is owed, ensuring complete transparency and smooth settlements.`,
+      link: "https://splitpanda.com/",
+      technologiesUsed: [
+        "React js",
+        "Redux",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Material UI",
+        "SASS",
+        "Highcharts",
+      ],
+    },
+    {
+      id: 11,
+      title: "Encompass Data Connect UI",
+      description: `A UI application that empowers over 500 customers to independently manage their configuration settings, including IP access control and user role management. This modern UI replaced an outdated, non-responsive system, significantly reducing reliance on customer support and enhancing self-service capabilities. Key features include dynamic data flow control and detailed audit reporting for transparent data changes. I also ensured the application’s accessibility, security, performance, and responsiveness across devices. By proactively addressing issues and implementing continuous improvements, the project greatly improved customer satisfaction and operational efficiency.`,
+      link: "",
+      missingLinkReason: "Project Owned by ICE MT",
+      technologiesUsed: [
+        "React js",
+        "Redux",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Material UI",
+        "SASS",
+        "Highcharts",
+      ],
+    },
+    {
       id: 9,
       title: "One Dash",
       description: `Collaborated on a team to develop a project management app for a client with 200 subsidiaries, resulting in a 40% productivity increase. We added real-time data visualization, streamlined processes, and implemented comprehensive project record-keeping. This improved transparency, accountability, and decision-making. The app's ongoing support and maintenance ensure optimal performance, leading to sustained productivity gains and successful project outcomes.`,
@@ -74,14 +121,14 @@ function BodyComponent() {
         "SASS",
       ],
     },
-    {
-      id: 1,
-      title: "Food Order Application",
-      description:
-        "Designed and developed a Food Ordering Application featuring essential e-commerce functionality. The application has a visually appealing user interface and responsive design to support use on various devices, including smartphones, tablets, and desktop computers.",
-      link: "https://food-order-app-sand-six.vercel.app/",
-      technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
-    },
+    // {
+    //   id: 1,
+    //   title: "Food Order Application",
+    //   description:
+    //     "Designed and developed a Food Ordering Application featuring essential e-commerce functionality. The application has a visually appealing user interface and responsive design to support use on various devices, including smartphones, tablets, and desktop computers.",
+    //   link: "https://food-order-app-sand-six.vercel.app/",
+    //   technologiesUsed: ["React js", "Javascript", "HTML", "CSS"],
+    // },
     {
       id: 10,
       title: "Diff Checker",
@@ -95,7 +142,7 @@ function BodyComponent() {
         "Algorithms",
       ],
     },
-     {
+    {
       id: 2,
       title: "Sudoku Solution Visualiser",
       description:
@@ -159,10 +206,14 @@ function BodyComponent() {
         <div class="skills-list">
           <span>React JS</span>
           <span>JavaScript</span>
+          <span>TypeScript</span>
+          <span>SASS/SCSS</span>
+          <span>Redux</span>
           <span>Restful Web Services</span>
           <span>Data Structures</span>
           <span>Algorithms</span>
-          <span>Redux</span>
+          <span>Jest</span>
+          <span>React Testing Library</span>
           <span>HTML & CSS</span>
           <span>Java</span>
           <span>Spring Boot</span>
@@ -171,6 +222,13 @@ function BodyComponent() {
           <span>Redis</span>
           <span>Kafka</span>
           <span>Git</span>
+          <span>AWS (S3, EC2, CloudFront, Route 53)</span>
+          <span>OAuth</span>
+          <span>Jenkins</span>
+          <span>SQL</span>
+          <span>Accessibility (a11y)</span>
+          <span>Performance Optimization</span>
+          <span>Problem-solving</span>
         </div>
       </div>
 
